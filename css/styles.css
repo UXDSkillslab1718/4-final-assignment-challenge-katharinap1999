@@ -168,6 +168,21 @@ margin-top: 30px;
     max-width: auto;
 }
 
+/*Overview
+-----------------------------*/
+
+.projects {
+    background:#BEC5AD;
+}
+p + h3 {
+margin-top: 30px;
+}
+
+#cover-image {
+    max-height: 300px;
+    max-width: auto;
+}
+
 /*Project Highlights
 -----------------------------*/
 
