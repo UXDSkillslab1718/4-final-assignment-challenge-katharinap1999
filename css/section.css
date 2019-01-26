@@ -124,3 +124,11 @@ nav a {
     background: #E8E6DC;
     background-size: cover;
 }
+
+.pictures{
+    width: 580px;
+    padding-left: 300px;
+    text-align: center;
+    display: inline-block;
+
+}
