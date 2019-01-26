@@ -1,0 +1,206 @@
+
+/*Global styles
+-----------------------------*/
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body  {
+    font-family: 'Encode Sans Condensed', sans-serif;
+    margin: 0;
+
+}
+h1,h2 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: 400;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 25px;
+    margin-top:0;
+}
+h3 {
+    margin: 0;
+}
+a {
+    color:black;  
+} 
+a:hover {
+text-decoration: none;
+
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 60px 50px;
+    overflow: hidden;
+    
+}
+
+
+.uppercase { 
+text-transform: uppercase;
+}
+
+.btn { 
+text-decoration: none;
+background: #918B76;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+}
+
+/*Header and Footer
+-----------------------------*/
+
+header, footer {
+    background: #BEC5AD;
+    color: black
+}
+/*header */ 
+
+header {
+    padding-top: 50px;
+    position: relative;
+}
+
+.profile-img {
+    border-radius: 50%;
+
+}
+
+.download {
+position: absolute;
+    bottom: 0;
+    left: 0;
+}
+   
+
+header h1, header h2 {
+    color: #EDF2F4; 
+    margin: 0;
+}
+/*footer */
+footer {
+    text-align: center;
+}
+
+.contact-info a {
+    /*background: white;*/
+    padding: 10px;
+    display: inline-block;
+}
+
+/*Navigation
+-----------------------------*/
+
+nav {
+    text-align: center;
+    background: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav a {
+    display: inline-block;
+    padding: 15px 20px; 
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/*Work Experience 
+-----------------------------*/
+
+.work {
+       background: linear-gradient(rgba(35,35,36,0.8), rgba(35,35,36,0.5)),
+        url(../images/africa.jpg) no-repeat fixed;
+    background-size: cover;
+    color: white;
+
+}
+h3 ~ p {
+    margin: 0;
+}
+.job-description p:first-of-type {
+    margin-top: 0;
+}
+
+
+
+/*Education
+-----------------------------*/
+
+.education {
+    background: #E8E6DC
+}
+
+p + h3 {
+margin-top: 30px;
+}
+
+#cover-image {
+    max-height: 300px;
+    max-width: auto;
+    
+}
+
+/*School Projects
+-----------------------------*/
+
+.education {
+    background: #E8E6DC
+}
+
+p + h3 {
+margin-top: 30px;
+}
+
+#cover-image {
+    max-height: 300px;
+    max-width: auto;
+}
+
+/*Project Highlights
+-----------------------------*/
+
+.project-highlights {
+    clear: both;
+    background: #E8E6DC
+    
+}
+
+
+
+/*Media Queries
+-----------------------------*/
+@media (min-width:900px) {
+    .col-narrow {
+    width: 30%;
+    float: left;
+   
+}
+
+.col-wide {
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+}    
+}
+
+@media (max-width:899px){
+    header {
+        text-align: center;
+        
+    }   
+    .profile-img{
+        width:200px
+    }
+}
