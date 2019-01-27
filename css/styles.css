@@ -133,6 +133,26 @@ h3 ~ p {
     margin-top: 0;
 }
 
+.col-wide {
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+    min-height: 179px;
+}
+@media (min-width:900px) {
+    .col-narrow {
+width: 30%;
+      float: left;
+    }
+    .col-wide {
+      width: 70%;
+      float: left;
+      padding-left: 20px;
+}
+    .content-wrap {
+      padding: 60px 0px; /* new 226- 228 */
+} }
+
 
 
 /*Education

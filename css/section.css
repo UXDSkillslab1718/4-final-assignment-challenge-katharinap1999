@@ -125,10 +125,14 @@ nav a {
     background-size: cover;
 }
 
-.pictures{
-    width: 580px;
-    padding-left: 300px;
-    text-align: center;
-    display: inline-block;
-
+ .pictures{
+    width: 100%;
+    padding-left: 0px;
+    margin: 10px auto;
 }
+@media (min-width:576px) {
+  .pictures{
+      width: 300px;
+      text-align: center;
+      display: block;
+} }
